@@ -1,28 +1,28 @@
 import { Component, OnInit } from '@angular/core';
-import { Employee } from '../models/employee.models';
+import { Employee } from '../models/employee.model';
 
 @Component({
   selector: 'app-list-employees',
   templateUrl: './list-employees.component.html',
-  styleUrls: ['./list-employees.component.css']
+  styleUrls: ['./list-employees.component.scss']
 })
 export class ListEmployeesComponent implements OnInit {
-  employees:Employee[] = 
-  [
+
+  employees:Employee[] = [
     {
       id: 1,
-      name: 'Mark',
+      fullname: 'Mark',
       gender: 'Male',
       contactPreference: 'Email',
       email: 'mark@tech.com',
-      dateOfBirth: new Date('01/11/2000'),
+      dateOfBirth: new Date('11/01/2000'),
       department: 'IT',
       isActive: true,
       photoPath: 'assets/images/mark.png'
     },
     {
       id: 2,
-      name: 'Mary',
+      fullname: 'Mary',
       gender: 'Female',
       contactPreference: 'Phone',
       phoneNumber: 234567890,
@@ -33,7 +33,7 @@ export class ListEmployeesComponent implements OnInit {
     },
     {
       id: 3,
-      name: 'John',
+      fullname: 'John',
       gender: 'Male',
       contactPreference: 'Phone',
       phoneNumber: 234567890,

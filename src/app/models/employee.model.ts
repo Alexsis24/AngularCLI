@@ -1,7 +1,7 @@
 export class Employee {
     id: number;
     fullname: string;
-    gender: string;
+    gender: string; 
     email?: string;
     phoneNumber?: number;
     contactPreference: string;
