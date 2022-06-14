@@ -15,6 +15,7 @@ import { LandingpageComponent } from './employees/landingpage/landingpage.compon
 const appRoutes: Routes = [
   {path: 'list', component: ListEmployeesComponent},
   {path: 'create', component: CreateEmployeeComponent},
+  {path: 'landingpage', component: LandingpageComponent},
   {path: '', redirectTo:'/list', pathMatch: 'full'}
 ];
 
