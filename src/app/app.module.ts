@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { ListEmployeesComponent } from './employees/list-employees.component';
 import { CreateEmployeeComponent } from './employees/create-employee.component';
 import { RouterModule, Routes } from '@angular/router';
+import { LandingpageComponent } from './employees/landingpage/landingpage.component';
 //import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 
 
